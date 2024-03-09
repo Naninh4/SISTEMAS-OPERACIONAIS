@@ -10,11 +10,22 @@ final.
 - Gerenciamento de recursos 
 
 
-10. 
-
+10. Complete o programa de cópia de arquivos para que ele faça todas as verificações para
+funcionar corretamente: 
+- Parâmetros do programa estão corretos?
 ``` cpp
   if (argc != 3) {
         fprintf(stderr, "Uso: %s <arquivo_origem> <arquivo_destino>\n", argv[0]);
         _exit(EXIT_FAILURE);
     }
+
 ```
+
+arquivo origem existe?
+
+posso ler?
+arquivo destino não pode existir. 
+O nome do arquivo é válido? 
+Posso escrever no diretório do arquivo destino? 
+Identifique todas as chamadas de sistema necessárias para o
+funcionamento correto do programa.
