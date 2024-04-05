@@ -87,7 +87,7 @@ funcionar corretamente:
 - O nome do arquivo é válido? ✅
 - Posso escrever no diretório do arquivo destino? ✅
 
-Identifique todas as chamadas de sistema necessárias para o funcionamento correto do programa.
-     - Principalmente o access e o open, o retorno deles vai determinar as tarefas que o código vai desempenhar de fato.
+Identifique todas as chamadas de sistema necessárias para o funcionamento correto do programa:
+- Principalmente o access e o open, o retorno deles vai determinar as tarefas que o código vai desempenhar de fato.
 
 
