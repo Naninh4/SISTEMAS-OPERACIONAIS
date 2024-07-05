@@ -3,6 +3,12 @@
 
 int main(int agrc, char **argv){
 
+    if (argc != 2) {
+        std::cerr << "Erro: Número incorreto de argumentos.\n";
+        std::cerr << "Uso: " << argv[0] << " <caminho_do_arquivo>\n";
+        return 1;
+    }
+
     char buff[16];
 
     int saida, file; // declarando arquivos de entrada e saída
