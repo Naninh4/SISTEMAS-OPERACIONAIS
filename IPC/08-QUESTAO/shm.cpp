@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv) {
     if (argc < 3) {
-        fprintf(stderr, "Uso: %s <arquivo de origem > <arquivo de destino>\n", argv[0]);
+        fprintf(stderr, "Uso: %s <arquivo de origem> <arquivo de destino>\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
@@ -42,13 +42,14 @@ int main(int argc, char **argv) {
         perror("mmap falhou");
         exit(EXIT_FAILURE);
     }
-    const char *size = "27";
 
     char *s = static_cast<char *>(ptr);
+    const char *size = "27";
+
     pid_t pid = fork();
 
-    const char *arquivoDestino = argv[3];
-    const char *arquivoOrigem = argv[2];
+    const char *arquivoOrigem = argv[1];
+    const char *arquivoDestino = argv[2];
 
     /***************************PRODUTOR***********************************/
     if (pid > 0) { /* processo pai: produtor */
@@ -59,9 +60,9 @@ int main(int argc, char **argv) {
                 perror("execl falhou");
                 exit(EXIT_FAILURE);
             }
-            return 0;
         } else {
             wait(NULL);
+            s = static_cast<char *>(ptr);
             while (*s != '*') {
                 sleep(1);
             }
@@ -76,6 +77,8 @@ int main(int argc, char **argv) {
             perror("execl falhou");
             exit(EXIT_FAILURE);
         }
+        s = static_cast<char *>(ptr);
+
     }
 
     return 0;

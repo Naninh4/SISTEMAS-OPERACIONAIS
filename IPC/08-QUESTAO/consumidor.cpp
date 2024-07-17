@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
     char buf[1];
 
     for (s = static_cast<char *>(ptr);  *s != static_cast<char>(NULL); s++) {
-        std::putchar(*s);
+        // std::putchar(*s); // printando na tela
         buf[0] = *s;
         write(target, buf, 1);
     }
@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
     std::putchar('\n');
     s = static_cast<char *>(ptr);
     *s = '*';
-
+    
     close(target);
     return 0;
 }
