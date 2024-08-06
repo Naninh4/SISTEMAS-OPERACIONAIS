@@ -1,5 +1,5 @@
 
-!(./shellsBar.jpg)
+!(shellsBar.jpg)
 
 
 # shellsBar
@@ -94,6 +94,4 @@ Contribuições são bem-vindas! Se você encontrar bugs, tiver sugestões de me
 ## Licença
 
 Todos os direitos reservados a mim e aos anjos do stackoverflow
-
-```
 
