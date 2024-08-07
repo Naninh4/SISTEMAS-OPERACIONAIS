@@ -34,19 +34,22 @@ pid_t pid_back = 0;
 
 std::vector<pid_t> process;
 
-void check_background_processes() {
+
+std::vector<pid_t> check_background_processes() {
     int status;
+    std::vector<pid_t> process_new;
+
     for (auto it = process.begin(); it != process.end();) {
         pid_t result = waitpid(*it, &status, WNOHANG); // WNOHANG para não bloquear
-        if (result == 0) {
-            ++it;
-        } else if (result == -1) {
-            // Erro ao verificar o processo
-            it = process.erase(it); // Remove o processo com erro
-        } else {
-            it = process.erase(it); // Remove o processo da lista
+        std::cout <<"DEBUG: " << status << std::flush << std::endl;
+        if (status != 0) {
+            process_new.push_back(*it);
         }
     }
+    if(!process_new){
+        process_new = process;
+    }
+    return process_new;
 }
 
 
@@ -137,6 +140,7 @@ void process_command(std::string command) {
         return;
     }
     if(command == "jobs"){
+        process = check_background_processes();
         for(int x=0; x< process.size();x++)
         std::cout << process[x] << std::endl;
         history.push_back(command);
@@ -228,7 +232,6 @@ void process_command(std::string command) {
                 perror("execve"); 
                 exit(1);
             } else {
-               
                 if (background) {
                     process.push_back(pid);
                 } else {
@@ -252,6 +255,9 @@ void process_command(std::string command) {
 int main() {
    
        while (true) {
+        // char hhh[200];
+        // gethostname(hhh, 200);
+        // std::cout << std::string(hhh) << std::endl;
 
         std::cout  << PS1 << "$> ";
         std::string command;
