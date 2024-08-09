@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/launch.json
       "cwd": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/ATV - CHAMADAS DE SISTEMA",
       "program": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/ATV - CHAMADAS DE SISTEMA/build/Debug/outDebug",
+=======
+      "cwd": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/shell",
+      "program": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/shell/build/Debug/outDebug",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/launch.json
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

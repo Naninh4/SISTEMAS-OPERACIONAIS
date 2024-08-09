@@ -1,0 +1,50 @@
+<<<<<<< HEAD:ATIVIDADE DE INTRODUÇÃO/.vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/ATIVIDADE DE INTRODUÇÃO",
+      "program": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/ATIVIDADE DE INTRODUÇÃO/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+=======
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/IPC",
+      "program": "c:/Users/livia/OneDrive/Livinha User/BACKUP/IFRN - 20231014040029/SO - SISTEMAS OPERACIONAIS/IPC/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:IPC/.vscode/launch.json
+}

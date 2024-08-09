@@ -4,7 +4,11 @@
   "C_Cpp_Runner.debuggerPath": "gdb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
   "C_Cpp_Runner.msvcBatchPath": "",
+=======
+  "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",
@@ -58,25 +62,46 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "*.java": "java",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
+=======
+    "vector": "cpp",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
     "array": "cpp",
     "atomic": "cpp",
     "bit": "cpp",
     "*.tcc": "cpp",
     "cctype": "cpp",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
+=======
+    "charconv": "cpp",
+    "chrono": "cpp",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
     "clocale": "cpp",
     "cmath": "cpp",
     "compare": "cpp",
     "concepts": "cpp",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
+=======
+    "condition_variable": "cpp",
+    "csignal": "cpp",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
     "cstddef": "cpp",
     "cstdint": "cpp",
     "cstdio": "cpp",
     "cstdlib": "cpp",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
+=======
+    "ctime": "cpp",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
     "cwchar": "cpp",
     "cwctype": "cpp",
     "deque": "cpp",
     "string": "cpp",
     "unordered_map": "cpp",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
     "vector": "cpp",
+=======
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
     "exception": "cpp",
     "algorithm": "cpp",
     "functional": "cpp",
@@ -86,11 +111,16 @@
     "numeric": "cpp",
     "optional": "cpp",
     "random": "cpp",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
+=======
+    "ratio": "cpp",
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
     "string_view": "cpp",
     "system_error": "cpp",
     "tuple": "cpp",
     "type_traits": "cpp",
     "utility": "cpp",
+<<<<<<< HEAD:ATV - CHAMADAS DE SISTEMA/.vscode/settings.json
     "initializer_list": "cpp",
     "iosfwd": "cpp",
     "istream": "cpp",
@@ -103,5 +133,30 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "iostream": "cpp"
+=======
+    "format": "cpp",
+    "future": "cpp",
+    "initializer_list": "cpp",
+    "iomanip": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "numbers": "cpp",
+    "ostream": "cpp",
+    "semaphore": "cpp",
+    "span": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "stop_token": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "typeinfo": "cpp",
+    "variant": "cpp",
+    "codecvt": "cpp",
+    "cstring": "cpp"
+>>>>>>> 17330b33daa691f17c5bbbaa49724d492345bcc9:shell/.vscode/settings.json
   }
 }
